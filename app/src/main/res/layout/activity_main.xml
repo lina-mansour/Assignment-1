@@ -37,6 +37,8 @@ android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
+        android:textSize="50dp"
+
 
         />
     <Spinner
@@ -44,6 +46,8 @@ android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
+        android:textSize="30dp"
+
         android:text="Genre"
         />
     <Button
@@ -52,6 +56,7 @@ android:textColor="@color/white"
         android:layout_height="wrap_content"
         android:onClick="btnGetMoviesOnClick"
         android:text="@string/get_movie"
+        android:backgroundTint="@color/flaxen"
         />
     <EditText
         android:id="@+id/edtTxt2"
@@ -59,8 +64,8 @@ android:textColor="@color/white"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         android:layout_marginTop="10dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginRight="80dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
         android:hint = "@string/search_result"
 
         />
