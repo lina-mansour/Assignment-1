@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Movie Store</string>
+    <string name="movie_store_app">Movie Search Filter</string>
+    <string name="get_movie">Get Movie</string>
+    <string name="title_goes_here">Title goes here</string>
+    <string name="search_result">Search Result Displays Here</string>
+</resources>
